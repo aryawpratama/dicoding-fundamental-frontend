@@ -1,0 +1,264 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    /* NavBar Start */
+    
+    .bar {
+        position: fixed;
+        z-index: 2;
+        top: 10px;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bar div {
+        width: 20px;
+        margin-top: 4px;
+        height: 3px;
+        background-color: #fff;
+    }
+    
+    nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+        background-color: #fff;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
+        width: 100%;
+        background-color: #0061a8;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+    
+    .logo h1 {
+        font-size: 20px;
+    }
+    
+    .logo h2 {
+        font-size: 15px;
+    }
+    
+    .menu {
+        width: 100%;
+        height: 100%;
+        background-color: #0061a8;
+    }
+    
+    .option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0px;
+        background-color: #0061a8;
+        cursor: pointer;
+    }
+    
+    .active {
+        background-color: #fff;
+        color: #0061a8;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin: 0px 10px;
+    }
+    /* NavBar End */
+    /* Container */
+    
+    .container {
+        margin-left: 200px;
+    }
+    /* Container End */
+    /* Banner Home Start */
+    
+    .banner {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.nortonrosefulbright.com/-/media/images/nrf/us_22920_masthead-webinar_state-of-the-union-covid-19-1920x1080.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .title {
+        font-size: 30px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .desc {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: normal;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* Banner Home Start End */
+    /* Country */
+    
+    .head-info {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 70%;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    
+    li {
+        flex: 30%;
+        width: 40%;
+        margin-top: 5px;
+        cursor: pointer;
+        color: blue;
+        list-style: none;
+    }
+    
+    .render {
+        padding: 10px 10px;
+    }
+    /* Country End*/
+    /* Inner Country */
+    
+    .inner-country {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .country-title {
+        margin-top: 20px;
+        font-size: 30px;
+        align-self: center;
+    }
+    
+    .graph {
+        margin-top: 60px;
+        width: 80%;
+        height: 30px;
+        background-color: #aaa;
+        display: flex;
+        align-self: center;
+        border-radius: 10px;
+    }
+    
+    .death {
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .confirmed {
+        height: 100%;
+        background-color: rgb(255, 200, 0);
+    }
+    
+    .recovered {
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+        background-color: rgb(0, 255, 0);
+    }
+    
+    .legend {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        /* align-self: center; */
+        margin-left: 10%;
+    }
+    
+    .flex span {
+        margin-left: 20px;
+        margin-right: 5px;
+        height: 15px;
+        width: 15px;
+    }
+    
+    .flex {
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+    }
+    
+    .dea {
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .conf {
+        background-color: rgb(255, 200, 0);
+    }
+    
+    .rec {
+        background-color: rgb(0, 255, 0);
+    }
+    
+    .data {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .data h5 {
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    
+    .data p {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .back-country {
+        width: 70px;
+        height: 30px;
+        background-color: #0061a8;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+        align-self: center;
+        cursor: pointer;
+    }
+    /* Inner Country End */
